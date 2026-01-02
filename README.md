@@ -1,44 +1,120 @@
-# kali-linux-hacker-setup-scripts
+# 🐺 Golden Wolf Cyber Squad – IP Tracker Tool
 
-A comprehensive guide to setting up and optimizing **Kali Linux** for **ethical hacking, CTFs, and cybersecurity**.  
-This repository includes essential commands, scripts, tools, and configurations for a smooth and professional hacking environment.
+Dark Hacker IP Console
+Track IP address information directly from the terminal using Kali Linux.
+
+⚠️ Educational Purpose Only
+Do not use this tool for illegal or unauthorized activities.
 
 ---
 
-![my_kali_linux_setup](https://github.com/user-attachments/assets/a64bcd44-2c84-4044-8dad-43ea24e3fd6a)
+<p align="center">
+  <img src="image.interface.png" alt="My Kali Linux Setup" width="800">
+</p>
+<p align="center">
+  <img src="image.full page.png" alt="My Kali Linux Setup" width="800">
+</p>
 
-# Kali Linux Setup and Optimization Guide
+
+# IP-TRACKER Setup  Guide
 
 <div align="center" style="border: 2px solid #444; padding: 12px; margin: 15px 0; background-color: #111;">
-  <strong>Estimated Setup Time:</strong> ~2 hours
+  <strong>Estimated Setup Time:</strong> ~5 minute
 </div>
-
-Welcome to the **Kali Linux Setup and Optimization Guide**.  
-This guide is designed for **beginners and advanced users** who want a clean, fast, and efficient Kali Linux setup for hacking, penetration testing, and CTF challenges.
 
 ---
 
+# ✨ Features
+
+• Fast IP information lookup
+
+• Clean and hacker-style terminal interface
+
+• Uses ipinfo.io API
+
+• Lightweight and easy to use
+
+• Designed for Kali Linux
+
+##🖥️ Supported Operating Systems
+
+• Kali Linux
+
+• Ubuntu
+
+• Debian-based Linux distributions
+ 
+
+## 🔧 Installation & Usage (Step by Step)
 ## 📚 Table of Contents
 
-1. [System Update & Upgrade](#1-system-update--upgrade)
-2. [Change Hostname](#2-change-hostname)
-3. [Configure Kali Repositories](#3-configure-kali-repositories)
-4. [Essential Tweaks for Hackers](#4-essential-tweaks-for-hackers)
+1. [SUpdate & Upgrade Kali Linux](#1-system-update--upgrade)
+2. [Install Required Packages](#2-Install-Required-Packages)
+3. [Verify Installed Tools](#3-Verify-Installed-Tools)
+4. [Clone the Repository](#4-Clone-the-Repository)
    - [Remove Default Home Directories](#41-remove-default-home-directories)
    - [CTF Workspace Setup](#42-ctf-workspace-setup)
    - [Disable Lock Screen](#43-disable-lock-screen)
    - [Regenerate SSH Keys](#44-regenerate-ssh-keys)
    - [Configure DNS Servers](#45-configure-dns-servers)
    - [Enable Autologin](#46-enable-autologin)
-5. [Essential Packages Installation](#5-essential-packages-installation)
-6. [Aliases & Productivity Shortcuts](#6-aliases--productivity-shortcuts)
-7. [Conclusion](#conclusion)
+5. [Give Execute Permission](#5-Give-Execute-Permission)
+6. [Run the Tool](#6-Run-the-Tool)
+## 🧑‍💻 Developer
+Golden Wolf Cyber Squad
+🔐 Ethical Hacking | Cyber Security | OSINT
+
+⚠️ Disclaimer
+
+This tool is created strictly for educational purposes only.
+The developer is not responsible for any misuse or illegal activities.
+
+⭐ Support
+
+If you like this project, don’t forget to ⭐ star the repository on GitHub.
 
 ---
 
-## 1. System Update & Upgrade
+## 1. SUpdate & Upgrade Kali Linux
 
 Always start with an updated system.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
+
+## 2. Install Required Packages
+
+Always start with an updated system.
+
+```bash
+sudo apt install chafa jq curl whois traceroute -y
+
+## 3. Verify Installed Tools
+
+Always start with an updated system.
+
+```bash
+chafa --version
+jq --version
+
+## 4. Clone the Repository
+
+Always start with an updated system.
+
+```bash
+git clone https://github.com/YOUR-USERNAME/ip-tracker4.git
+cd ip-tracker4
+
+## 5. Give Execute Permission
+
+Always start with an updated system.
+
+```bash
+chmod +x ip-tracker4.sh
+
+## 6. Run the Tool
+
+Always start with an updated system.
+
+```bash
+./ip-tracker4.sh
