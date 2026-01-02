@@ -12,7 +12,7 @@ Do not use this tool for illegal or unauthorized activities.
   <img src="image.interface.png" alt="My Kali Linux Setup" width="800">
 </p>
 <p align="center">
-  <img src="image.full page.png" alt="My Kali Linux Setup" width="800">
+  <img src="image.Rename Screenshot_2026-01-02_21_06_16.png to interface.png" alt="My Kali Linux Setup" width="800">
 </p>
 
 
